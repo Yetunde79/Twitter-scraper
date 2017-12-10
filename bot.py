@@ -3,9 +3,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-browser= webdriver.Chrome("C:\\Users\ysola\\PycharmProjects\\bots\\chromedriver")
+browser= webdriver.Chrome("C:\\Users\abc\\PycharmProjects\\bots\\chromedriver")
 base_url = u'https://twitter.com/search?q='
-query = u'%40dawranliou'
+query = u'%40dawranliou'  #from users twitter-url
 url = base_url + query
 
 browser.get(url)
